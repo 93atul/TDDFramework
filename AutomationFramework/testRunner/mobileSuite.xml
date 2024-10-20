@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Google Search WebApp Suite" parallel="none" verbose="1">
+    <listeners>
+        <listener class-name="common.utils.ExtentReportUtil"/>
+        <listener class-name="common.utils.ListenerTransform"/>
+    </listeners>
+    <parameter name="environment" value="QA"/>
+    <parameter name = "appName" value = "D:\\Atul\\AutomationFramework\\app\\android\\ApiDemos-debug.apk"/>
+    <parameter name="deviceName" value="Pixel_8_13"/>
+    <parameter name="noReset" value="false"/>
+    <parameter name="platformName" value="Android"/>
+
+    <test name="Google Search Tests">
+        <classes>
+            <class name="mobile.DemoApp.DemoAppTests"/>
+        </classes>
+    </test>
+</suite>
