@@ -26,3 +26,10 @@ mvnw clean test	./mvnw clean test
 After running tests, reports can be found in the reports directory 
 AutomationFramework/reports
 AutomationFramework/PdfReports
+
+**Running Tests**
+One of the easiest ways to run tests, recommended for non-programmers or teams that are not familiar with Java, is to browse to AutomationFramework/testRunner and select the appropiate test xml as per the requiremnt.
+
+There are more tests and examples in this project, but the following are the simplest ones to get started with:
+GoogleSearchTests for UI
+WeatherApiTests for API
